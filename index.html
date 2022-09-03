@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br ">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta CEP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="container">
+        <div class="flex">
+            <div class="card">
+                <h2 class="title">Consulta CEP</h2>
+                <form id="formCep">
+                    <label for="">Digite um CEP:</label>
+                    <input id="inputCep" type="text">
+                    <span id="msgError">Digite um CEP válido!</span>
+                    <button id="btnCep" type="submit">Buscar</button>
+                </form>
+            </div>
+            <div class="card">
+                <img src="image/mapa.png">
+            </div>
+        </div>
+        <div class="cardResp">
+            <div class="nome">
+                <label for="">Logradouro/Nome</label>
+                <input id="fildNome" type="text">
+            </div>
+            <div class="bairro">
+                <label for="">Bairro/Distrito</label>
+                <input id="fildBairro" type="text">
+            </div>
+            <div class="uf">
+                <label for="">Localidade/UF</label>
+                <input id="fildUf" type="text">
+            </div>
+            <div class="cep">
+                <label for="">CEP</label>
+                <input id="fildCep" type="text">
+            </div>
+
+        </div>
+
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
